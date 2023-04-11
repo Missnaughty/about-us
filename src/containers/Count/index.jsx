@@ -25,7 +25,7 @@ import React, { Component } from 'react'
     }
     incrementAsync = () => {
         const { value } = this.selectNumbers
-        this.props.asyncJia(value*1,500)
+        this.props.asyncJia(value+11,500)
     }
     render() {
         return (
